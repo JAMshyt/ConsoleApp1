@@ -40,7 +40,7 @@ namespace ConsoleApp1
 		{
 
 			string text = write();
-			using (StreamWriter sw = new StreamWriter(".//res.txt", false))
+			using (StreamWriter sw = new StreamWriter("..//..//res.txt", false))
 			{
 				sw.WriteLine(text);
 			}
